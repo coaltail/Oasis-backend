@@ -11,7 +11,7 @@ import productRoutes from './routes/product.js'
 import cookieParser from "cookie-parser"
 // config 
 const corsOptions = {
-    origin: 'https://oasis-website-u3p3.vercel.app/',
+    origin: '*',
     credentials: true,            //access-control-allow-credentials:true
     optionSuccessStatus: 200,
 }
