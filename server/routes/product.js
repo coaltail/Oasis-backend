@@ -6,7 +6,7 @@ const router = express.Router();
 // configure multer storage
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, '../oasis-app/src/assets/productPhotos/');
+        cb(null, 'C:/Users/Luka Baksa/Desktop/Projects/PyWO/Website_Auth/src/assets/productPhotos');
     },
     filename: function (req, file, cb) {
         let newFileName = Date.now() + '-' + file.originalname;
